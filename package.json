@@ -1,0 +1,26 @@
+{
+    "name": "earthy-color-theme",
+    "displayName": "Earthy Color Theme",
+    "description": "Brown/Orange/Green colored vscode theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Earthy Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Earthy-color-theme-dark.json"
+            },
+            {
+                "label": "Earthy Light",
+                "uiTheme": "vs",
+                "path": "./themes/Earthy-color-theme.json"
+            }
+        ]
+    }
+}
